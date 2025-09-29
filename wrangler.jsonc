@@ -1,0 +1,11 @@
+{
+    "name": "tgtg-watcher",
+    "main": "src/worker.js",
+    "compatibility_date": "2025-09-29",
+
+    // Every 5 minutes
+    "triggers":{
+        "crons": ["*/5 * * * *"]
+    }
+}
+
