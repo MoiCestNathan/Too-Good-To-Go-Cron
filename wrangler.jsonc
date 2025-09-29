@@ -6,6 +6,13 @@
     // Every 5 minutes
     "triggers":{
         "crons": ["*/5 * * * *"]
+    },
+
+    "kv_namespaces": [
+    {
+      "binding": "STATE",
+      "id": "KV_NAMESPACES_ID"
     }
+  ]
 }
 
